@@ -1,0 +1,130 @@
+<resources>
+    <!--<string name="app_name">GroclXCINC</string>-->
+    <string name="app_name">SuvidhaMandi</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Aditi">GroclXCINC</string>
+    <string name="home">Home</string>
+    <string name="category">Categories</string>
+    <string name="about">About</string>
+    <string name="fandq">FAQ\'S</string>
+    <string name="contact">Contact us</string>
+    <string name="all">All</string>
+    <string name="beverage">Beverages</string>
+    <string name="meat"><![CDATA[Meat & Seafood]]></string>
+    <string name="bakery">Bakery, Breakfast, Cereal</string>
+    <string name="frozen">Frozen Foods</string>
+    <string name="dairy"><![CDATA[Dairy, Eggs & Cheese]]></string>
+    <string name="fruits"><![CDATA[Fruits & Vegetables]]></string>
+    <string name="foodgrains"><![CDATA[Foodgrains, Flour & Pulses]]></string>
+    <string name="oil">Oil</string>
+    <string name="Spices"><![CDATA[Spices & Condiments]]></string>
+    <string name="nuts"><![CDATA[Nuts, Dry Fruits & Baking Items]]></string>
+    <string name="Snacks"><![CDATA[Snacks, Biscuits & Namkeen]]></string>
+    <string name="homeuse">Home Use</string>
+    <string name="toile">Tolietries</string>
+    <string name="pet">Pet food</string>
+    <string name="baby">Baby Care</string>
+    <string name="cocko"><![CDATA[Chocolates & Candies]]></string>
+    <string name="sugar"><![CDATA[Sugar, Salt & Jaggery]]></string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="login">Login</string>
+    <string name="location">Your Location</string>
+    <string name="name">Mohali, 3B2 House No. 936</string>
+    <string name="products">Search products</string>
+    <string name="slot">Your next available slot</string>
+    <string name="standard">Standard :</string>
+    <string name="date_time">Tomorrow 12:00AM - 4:00PM</string>
+    <string name="shop_cat">Shop by Category</string>
+    <string name="daily_essentials">Daily Essentials Store</string>
+    <string name="staples">Staples Corner</string>
+    <string name="hygen"><![CDATA[Beauty & Hygiene]]></string>
+    <string name="review">Review Basket</string>
+    <string name="empty">Your basket is empty</string>
+    <string name="text">Explore our ever growing selection of products and exciting  new offers today!</string>
+    <string name="start">Start Shopping</string>
+    <string name="list">Your Shopping List</string>
+    <string name="dialog">An Apple a day keep the doctor away</string>
+    <string name="price">Rs 15</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="view_cart">View Cart</string>
+    <string name="out_of_stock">Out of Stock</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+
+    <string name="password">Password</string>
+
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="try_again">Server Error!Please try again</string>
+    <string name="no_internet">No Internet Connection, Please connect to an active Internet Connection.</string>
+    <string name="field_required">All field required!</string>
+
+    <!-- Signup-->
+
+
+    <string name="first_name">First Name</string>
+
+    <string name="last_name">Last Name</string>
+
+    <string name="pass">Password</string>
+
+    <string name="house_no">House No</string>
+
+    <string name="street_address">Address</string>
+
+    <string name="phone">Phone No</string>
+
+    <!-- Forgot Password-->
+
+
+    <string name="email_address">Enter your Email Address</string>
+
+    <string name="reset_pass">Reset Password</string>
+    <string name="invalid_email">Please enter valid email address.</string>
+    <string name="invalid_pass">Minimum 5 charter required.</string>
+    <string name="email_required">Please enter email address.</string>
+
+    <string name="user_name">User Name</string>
+    <string name="user_email">User Email</string>
+    <string name="amount">Amount</string>
+    <string name="order_status">Order Status</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="view_order">View Order</string>
+    <string name="one">0</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="products_">Buy Products</string>
+    <string name="fruit_name">Name</string>
+    <string name="billing">Billing Address</string>
+    <string name="password_fill">Please enter your password</string>
+    <string name="name_required">Name required</string>
+    <string name="field_required_phn">Minimum 10 charter required.</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="login_account">Please login to your account</string>
+    <string name="or">or</string>
+    <string name="field_required_fname">First Name required.</string>
+    <string name="field_required_lname">Last Name required.</string>
+    <string name="field_required_add">Address required.</string>
+
+    <string name="old">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="apple">Apple</string>
+    <string name="prices">MRP.</string>
+    <string name="share">Share</string>
+    <string name="tell">Tell friends about Suvida Mandi.</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="refer">Refer a Friend</string>
+    <string name="link">https://play.google.com/store/apps/details?id=com.galacticglobal.groclxcinc &amp; hl=en </string>
+    <string name="share_txt">Share this link with your friends so that they can order the best grocery products online with a wide range of options in less time at their doorstep.</string>
+    <string name="home_kitchen">Home Kitchen</string>
+    <string name="pricess">Rs.</string>
+
+
+</resources>

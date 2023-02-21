@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+    <!-- <androidx.cardview.widget.CardView
+         android:layout_width="match_parent"
+         android:layout_height="@dimen/_170sdp"
+         android:layout_margin="@dimen/_30sdp"
+         app:cardCornerRadius="@dimen/_10sdp">-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_margin="@dimen/_30sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <Button
+                        android:id="@+id/add_cart"
+                        android:layout_width="@dimen/_38sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginBottom="@dimen/_20sdp"
+                        android:background="@drawable/custom_btn"
+                        android:padding="@dimen/_2sdp"
+                        android:text="@string/add"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/_10sdp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="@dimen/_10sdp">
+
+                <TextView
+                    android:id="@+id/product_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/myraidprobold"
+                    android:text="@string/fruit_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:fontFamily="@font/sfprodisplay_regular"
+                        android:text="@string/price"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+
+                    <TextView
+                        android:id="@+id/weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/sfprodisplay_regular"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <!-- Spinner-->
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:background="@drawable/spinner_background"
+                        android:visibility="gone" />
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:id="@+id/decriment"
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:background="@drawable/custom_bg_add">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/spfdisplay_heavy"
+                                android:gravity="center"
+                                android:text="@string/minus"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:background="@drawable/custom_bg_add">
+
+                            <TextView
+                                android:id="@+id/quantity"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/spfdisplay_heavy"
+                                android:gravity="center"
+                                android:text="1"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/increment"
+                            android:layout_width="@dimen/_24sdp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:background="@drawable/custom_bg_add">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="@font/spfdisplay_heavy"
+                                android:gravity="center"
+                                android:text="@string/plus"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_14sdp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/container_stock"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:background="@color/red"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:visibility="visible">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:maxLines="1"
+                            android:text="@string/out_of_stock"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:elevation="@dimen/_4sdp"
+        app:cardCornerRadius="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/product_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/logo" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

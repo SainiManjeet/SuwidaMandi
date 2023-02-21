@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home_run"
+        android:iconTint="@color/white"
+        android:fontFamily="@font/sfpdisplaymedium"
+        android:title="Home" />
+    <item
+        android:id="@+id/action_category"
+        android:enabled="true"
+        android:icon="@drawable/category"
+        android:iconTint="@color/white"
+        android:fontFamily="@font/sfpdisplaymedium"
+        android:title="Categories" />
+
+    <item
+        android:id="@+id/action_discover"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/white"
+        android:fontFamily="@font/sfpdisplaymedium"
+        android:title="Search" />
+
+<!--    <item-->
+<!--        android:id="@+id/action_offer"-->
+<!--        android:enabled="true"-->
+<!--        android:icon="@drawable/ic_offer"-->
+<!--        android:fontFamily="@font/sfpdisplaymedium"-->
+<!--        android:iconTint="@color/white"-->
+<!--        android:title="Offers" />-->
+
+
+    <item
+        android:id="@+id/action_basket"
+        android:enabled="true"
+        android:fontFamily="@font/sfpdisplaymedium"
+        android:icon="@drawable/basket"
+        android:iconTint="@color/white"
+        android:title="Basket" />
+</menu>

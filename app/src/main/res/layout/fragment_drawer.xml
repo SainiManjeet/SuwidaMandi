@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".fragment.DrawerFragment">
+
+    <!--<RelativeLayout
+        android:layout_width="@dimen/_180sdp"
+        android:layout_height="match_parent"
+        android:background="@color/black">
+
+    </RelativeLayout>-->
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_gravity="center"
+                android:src="@drawable/logo">
+
+            </ImageView>
+
+            <LinearLayout
+                android:id="@+id/sign_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/login"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="@dimen/_14sdp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custom_bg_border"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/login"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/sign_up"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="@dimen/_14sdp"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/custom_bg_border"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="@string/sign_up"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"
+                android:background="@color/pencil"
+                android:orientation="horizontal" />
+            <!-- Address-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_23sdp"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/_3sdp"
+                    android:layout_weight="0.1"
+                    android:gravity="center"
+                    android:src="@drawable/ic_location" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.9"
+                    android:gravity="center|left"
+                    android:text="No Data Found"
+                    android:textColor="@color/black"
+                    android:textSize="19sp" />
+
+                <!--   <androidx.appcompat.widget.AppCompatImageView
+                       android:layout_width="0dp"
+                       android:layout_height="@dimen/_23sdp"
+                       android:layout_gravity="center"
+                       android:layout_margin="@dimen/_3sdp"
+                       android:layout_weight="0.1"
+                       android:gravity="center"
+                       android:src="@drawable/ic_edit" />-->
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/pencil"
+                android:orientation="horizontal" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/home"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="Home"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <!--    <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:gravity="left|center"
+                    android:text="Categories"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />-->
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="Shop by Category"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <!--        <LinearLayout-->
+            <!--            android:id="@+id/viewContainer"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:orientation="vertical">-->
+            <!--        <androidx.recyclerview.widget.RecyclerView-->
+            <!--            android:visibility="visible"-->
+            <!--            android:id="@+id/cateListView"-->
+            <!--            android:layout_marginLeft="@dimen/_10sdp"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content" />-->
+
+            <!--        </LinearLayout>-->
+
+            <!--  <androidx.appcompat.widget.AppCompatTextView
+                  android:id="@+id/my_order"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/_40sdp"
+                  android:layout_gravity="center"
+                  android:layout_marginLeft="@dimen/_10sdp"
+                  android:gravity="left|center"
+                  android:text="My Orders"
+                  android:textColor="@color/black"
+                  android:textSize="17sp" />-->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/my_order"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="My Basket"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/order_history"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="My Orders"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/about_us"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="About"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/f_q"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="FAQ's"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="Contact Us"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/change_pass"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="Change Password"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:visibility="gone" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/refer_frd"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="Refer Friend"
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/log_out"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:gravity="left|center"
+                android:text="Log Out"
+                android:textColor="@color/black"
+                android:textSize="17sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
